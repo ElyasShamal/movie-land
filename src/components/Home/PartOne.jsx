@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "./Form";
 
-function Part() {
+function PartOne() {
   return (
     <section className="home-section">
       <article className="article">
@@ -13,4 +13,4 @@ function Part() {
   );
 }
 
-export default Part;
+export default PartOne;

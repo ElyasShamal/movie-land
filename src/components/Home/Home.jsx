@@ -1,12 +1,14 @@
 import React from "react";
-import Part from "./Part";
-import Part2 from "./Part2";
+import PartOne from "./PartOne";
+import PartTwo from "./PartTwo";
+import PartThree from "./PartThree";
 
 function Home() {
   return (
     <main className="container">
-      <Part />
-      <Part2 />
+      <PartOne />
+      <PartTwo />
+      <PartThree />
     </main>
   );
 }

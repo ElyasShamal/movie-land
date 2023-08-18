@@ -6,6 +6,7 @@
 
 .body {
   background-color: black;
+  overflow-x: hidden;
 }
 
 .Nav {
@@ -15,7 +16,7 @@
 
 .list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   padding-top: 20px;
 }
 
@@ -77,17 +78,26 @@
   cursor: pointer;
 }
 
-.part-2 {
+.section-two {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 100vw;
+  justify-content: space-between;
+  width: 80vw;
   color: white;
-  padding-top: 200px;
+  padding-top: 300px;
+  margin: auto;
 }
 
-.article2 {
+.article-two {
+  width: 40vw;
+}
+
+.article-two h2 {
+  padding-top: 10px;
+  font-size: 3rem;
+}
+
+.article-two p {
   padding-top: 40px;
-  font-size: 1.4rem;
-  width: 50%;
+  font-size: 2rem;
 }
