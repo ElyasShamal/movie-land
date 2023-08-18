@@ -3,7 +3,7 @@ import React from "react";
 function PartThree() {
   return (
     <section className="section-two">
-      <video controls autoPlay>
+      <video controls>
         <source
           src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
           type="video/mp4"

@@ -2,6 +2,7 @@ import React from "react";
 import PartOne from "./PartOne";
 import PartTwo from "./PartTwo";
 import PartThree from "./PartThree";
+import Footer from "../Footer/Footer";
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <PartOne />
       <PartTwo />
       <PartThree />
+      <Footer />
     </main>
   );
 }

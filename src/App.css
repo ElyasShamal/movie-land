@@ -84,7 +84,7 @@
   justify-content: space-between;
   width: 80vw;
   color: white;
-  padding-top: 300px;
+  padding-top: 200px;
   margin: auto;
 }
 
@@ -100,4 +100,14 @@
 .article-two p {
   padding-top: 40px;
   font-size: 2rem;
+}
+
+.footer {
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+  margin-top: 200px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
 }
