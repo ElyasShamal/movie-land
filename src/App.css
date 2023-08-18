@@ -9,13 +9,13 @@
 }
 
 .Nav {
-  min-height: 65px;
-  max-width: 100%;
+  min-height: 4rem;
+  max-width: 100vw;
 }
 
 .list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding-top: 20px;
 }
 
@@ -33,7 +33,46 @@
   background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/955e84a0-6be6-482c-8d45-126279f53895/US-en-20230814-popsignuptwoweeks-perspective_alpha_website_small.jpg");
   background-position: center center;
   background-size: cover;
-  width: 100%;
-  height: 500px;
+  width: 100vw;
+  min-height: 80vh;
   margin-top: 10px;
+}
+
+.home-section {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  /* i will change the alpha of the background colr*/
+}
+
+.article {
+  max-width: 100%;
+  color: white;
+  font-size: 2em;
+  padding-top: 200px;
+}
+
+.home-form {
+  padding-top: 2rem;
+}
+
+.home-form input {
+  max-width: 100%;
+  width: 300px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.home-form button {
+  padding: 8px 4px;
+  margin-left: 5px;
+  background-color: rgb(218, 12, 12);
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
 }
