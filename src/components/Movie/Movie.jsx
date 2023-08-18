@@ -3,7 +3,7 @@ import React from "react";
 function Movie() {
   return (
     <section>
-      <h1>movie page</h1>
+      <h1 style={{ textAlign: "center", color: "red" }}>movie page</h1>
     </section>
   );
 }

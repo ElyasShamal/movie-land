@@ -4,6 +4,28 @@
   box-sizing: border-box;
 }
 
+.body {
+  background-color: black;
+}
+
 .Nav {
-  background-color: brown;
+  min-height: 65px;
+  max-width: 100%;
+  border-bottom: 1px solid red;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.list-items {
+  padding: 0px 60px;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
 }

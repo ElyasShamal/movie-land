@@ -5,23 +5,29 @@ import Movie from "../Movie/Movie";
 
 const Header = () => {
   return (
-    <Router>
-      <nav className="Nav">
-        <ul>
-          <li>
-            <Link to="/About">About</Link>
-          </li>
-          <li>
-            <Link to="/Movie">Movies</Link>
-          </li>
-        </ul>
-      </nav>
+    <>
+      <Router>
+        <nav className="Nav">
+          <ul className="list">
+            <li className="list-items">
+              <Link to="/About" className="Link">
+                About
+              </Link>
+            </li>
+            <li className="list-items">
+              <Link to="/Movie" className="Link">
+                Movies
+              </Link>
+            </li>
+          </ul>
+        </nav>
 
-      <Routes>
-        <Route path="/About" element={<About />} />
-        <Route path="/Movie" element={<Movie />} />
-      </Routes>
-    </Router>
+        <Routes>
+          <Route path="/About" element={<About />} />
+          <Route path="/Movie" element={<Movie />} />
+        </Routes>
+      </Router>
+    </>
   );
 };
 
