@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
-import About from "../About/About";
+import Home from "../Home/Home";
 import Movie from "../Movie/Movie";
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
           <ul className="list">
             <li className="list-items">
               <Link to="/About" className="Link">
-                About
+                Home
               </Link>
             </li>
             <li className="list-items">
@@ -23,7 +23,7 @@ const Header = () => {
         </nav>
 
         <Routes>
-          <Route path="/About" element={<About />} />
+          <Route path="/About" element={<Home />} />
           <Route path="/Movie" element={<Movie />} />
         </Routes>
       </Router>
