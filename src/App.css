@@ -105,9 +105,18 @@
 .footer {
   width: 100vw;
   height: 20vh;
-  background-color: black;
+  background-color: white;
   margin-top: 200px;
-  text-align: center;
   padding-top: 30px;
-  color: white;
+  color: black;
+  text-align: center;
+}
+
+footer h2 {
+  margin: 20px 0px;
+}
+
+footer a {
+  color: black;
+  font-size: 30px;
 }
