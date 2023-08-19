@@ -10,7 +10,7 @@ function PartTwo() {
           players, and more.
         </p>
       </article>
-      <video controls autoplay>
+      <video controls>
         <source
           src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
           type="video/mp4"
