@@ -9,7 +9,7 @@ function PartThree() {
           type="video/mp4"
         ></source>
       </video>
-      <article className="article-two" style={{ paddingLeft: "50px" }}>
+      <article className="article-two">
         <h2>Watch everywhere</h2>
         <p>
           Stream unlimited movies and TV shows on your phone, tablet, laptop,

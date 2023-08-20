@@ -207,6 +207,28 @@ footer a {
   left: 0;
 }
 
+@media screen and (max-width: 1120px) {
+  .section-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-two {
+    width: 100%;
+  }
+  .article-two h2 {
+    font-size: 2rem;
+  }
+
+  .article-two p {
+    padding-bottom: 30px;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .app {
     padding: 4rem 2rem;
@@ -224,6 +246,11 @@ footer a {
   .search img {
     width: 20px;
     height: 20px;
+  }
+
+  .article-two p {
+    width: 100%;
+    font-size: 20px;
   }
 }
 
@@ -243,5 +270,10 @@ footer a {
   .movie {
     width: "100%";
     margin: 1rem;
+  }
+
+  .article-two p {
+    width: 100%;
+    font-size: 20px;
   }
 }
