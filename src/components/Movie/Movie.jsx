@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
 
-const Url = "http://www.omdbapi.com/?i=tt3896198&apikey=2864abde";
+const Url = "https://www.omdbapi.com/?i=tt3896198&apikey=2864abde";
 
 function Movie() {
   const [movies, setMovies] = useState([]);
